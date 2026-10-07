@@ -7,3 +7,4 @@ __pycache__/
 # keep data/ in the repo, but not the dataset itself
 data/*
 !data/.gitkeep
+!data/manifest.csv
