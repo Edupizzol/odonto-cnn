@@ -1,0 +1,52 @@
+{
+ "args": {
+  "runs": "/content/drive/MyDrive/odonto-cnn/runs",
+  "results": "/content/drive/MyDrive/odonto-cnn/results",
+  "manifest": "/content/dentex_crops/manifest.csv",
+  "pw": "sqrt",
+  "B": 2000,
+  "boot_seed": 42,
+  "workers": 2,
+  "recompute": false
+ },
+ "runs": [
+  "efficientnet_b0_s42_pwsqrt",
+  "efficientnet_b0_s43_pwsqrt",
+  "efficientnet_b0_s44_pwsqrt",
+  "resnet50_s42_pwsqrt",
+  "resnet50_s43_pwsqrt",
+  "resnet50_s44_pwsqrt"
+ ],
+ "thresholds": {
+  "efficientnet_b0_s42_pwsqrt": [
+   0.48,
+   0.06,
+   0.61
+  ],
+  "efficientnet_b0_s43_pwsqrt": [
+   0.07,
+   0.18,
+   0.64
+  ],
+  "efficientnet_b0_s44_pwsqrt": [
+   0.09,
+   0.29,
+   0.71
+  ],
+  "resnet50_s42_pwsqrt": [
+   0.5,
+   0.24,
+   0.42
+  ],
+  "resnet50_s43_pwsqrt": [
+   0.11,
+   0.3,
+   0.34
+  ],
+  "resnet50_s44_pwsqrt": [
+   0.27,
+   0.21,
+   0.72
+  ]
+ }
+}
